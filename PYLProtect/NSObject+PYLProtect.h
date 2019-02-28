@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface NSObject (PYLProtect)
+
+@end
+@interface NSObject (PYLSwizzle)
 + (void)swizzleInstanceOldMethod:(SEL)oldSEL toNewMethod:(SEL)newSEL;
 @end
 

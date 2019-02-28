@@ -9,7 +9,7 @@
 #import "NSObject+PYLProtect.h"
 #import <objc/runtime.h>
 
-@implementation NSObject (Basic)
+@implementation NSObject (PYLSwizzle)
 
 + (void)swizzleInstanceOldMethod:(SEL)oldSEL toNewMethod:(SEL)newSEL
 {
