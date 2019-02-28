@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4457A6942227CA0200132DEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4457A6932227CA0200132DEF /* main.m */; };
+		44EDF51D2227E43800EDBC4A /* NSObject+PYLProtect.m in Sources */ = {isa = PBXBuildFile; fileRef = 4457A69B2227CA2500132DEF /* NSObject+PYLProtect.m */; };
+		44EDF51E2227E43800EDBC4A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4457A6A72227DD4A00132DEF /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		4457A6902227CA0200132DEF /* PYLProtect */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PYLProtect; sourceTree = BUILT_PRODUCTS_DIR; };
 		4457A6932227CA0200132DEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4457A69A2227CA2500132DEF /* NSObject+PYLProtect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+PYLProtect.h"; sourceTree = "<group>"; };
+		4457A69B2227CA2500132DEF /* NSObject+PYLProtect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PYLProtect.m"; sourceTree = "<group>"; };
+		4457A6A62227DD4A00132DEF /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		4457A6A72227DD4A00132DEF /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				4457A6932227CA0200132DEF /* main.m */,
+				4457A69A2227CA2500132DEF /* NSObject+PYLProtect.h */,
+				4457A69B2227CA2500132DEF /* NSObject+PYLProtect.m */,
+				4457A6A62227DD4A00132DEF /* Person.h */,
+				4457A6A72227DD4A00132DEF /* Person.m */,
 			);
 			path = PYLProtect;
 			sourceTree = "<group>";
@@ -102,6 +112,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 4457A6872227CA0200132DEF;
 			productRefGroup = 4457A6912227CA0200132DEF /* Products */;
@@ -118,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44EDF51E2227E43800EDBC4A /* Person.m in Sources */,
 				4457A6942227CA0200132DEF /* main.m in Sources */,
+				44EDF51D2227E43800EDBC4A /* NSObject+PYLProtect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
