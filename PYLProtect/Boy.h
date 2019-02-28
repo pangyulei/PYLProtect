@@ -1,5 +1,5 @@
 //
-//  NSObject+PYLProtect.h
+//  Boy.h
 //  PYLProtect
 //
 //  Created by yulei pang on 2019/2/28.
@@ -7,8 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
+NS_ASSUME_NONNULL_BEGIN
 
-@interface NSObject (PYLProtect)
-+ (void)swizzleInstanceOldMethod:(SEL)oldSEL toNewMethod:(SEL)newSEL;
+@interface Boy : Person
+
 @end
 
+NS_ASSUME_NONNULL_END

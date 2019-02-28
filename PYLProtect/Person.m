@@ -10,22 +10,30 @@
 
 @implementation Person
 
-- (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector {
-    NSMethodSignature *sig = [super methodSignatureForSelector:aSelector];
-    if (sig) {
-        return sig;
-    } else {
-        return [NSMethodSignature signatureWithObjCTypes:"v@:"];
-    }
+- (void)m1 {
+    NSLog(@"m1");
 }
 
-- (void)forwardInvocation:(NSInvocation *)anInvocation {
-    anInvocation.selector = @selector(log);
-    [anInvocation invokeWithTarget:self];
+- (void)m2 {
+    NSLog(@"m2");
 }
 
-- (void)log {
-    NSLog(@"person log");
-}
+//- (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector {
+//    NSMethodSignature *sig = [super methodSignatureForSelector:aSelector];
+//    if (sig) {
+//        return sig;
+//    } else {
+//        return [NSMethodSignature signatureWithObjCTypes:"v@:"];
+//    }
+//}
+//
+//- (void)forwardInvocation:(NSInvocation *)anInvocation {
+//    anInvocation.selector = @selector(log);
+//    [anInvocation invokeWithTarget:self];
+//}
+//
+//- (void)log {
+//    NSLog(@"person log");
+//}
 
 @end

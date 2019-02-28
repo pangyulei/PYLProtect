@@ -10,6 +10,7 @@
 		4457A6942227CA0200132DEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4457A6932227CA0200132DEF /* main.m */; };
 		44EDF51D2227E43800EDBC4A /* NSObject+PYLProtect.m in Sources */ = {isa = PBXBuildFile; fileRef = 4457A69B2227CA2500132DEF /* NSObject+PYLProtect.m */; };
 		44EDF51E2227E43800EDBC4A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4457A6A72227DD4A00132DEF /* Person.m */; };
+		44EDF5212227F3D600EDBC4A /* Boy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EDF5202227F3D600EDBC4A /* Boy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		4457A69B2227CA2500132DEF /* NSObject+PYLProtect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PYLProtect.m"; sourceTree = "<group>"; };
 		4457A6A62227DD4A00132DEF /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		4457A6A72227DD4A00132DEF /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		44EDF51F2227F3D600EDBC4A /* Boy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Boy.h; sourceTree = "<group>"; };
+		44EDF5202227F3D600EDBC4A /* Boy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Boy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				4457A69B2227CA2500132DEF /* NSObject+PYLProtect.m */,
 				4457A6A62227DD4A00132DEF /* Person.h */,
 				4457A6A72227DD4A00132DEF /* Person.m */,
+				44EDF51F2227F3D600EDBC4A /* Boy.h */,
+				44EDF5202227F3D600EDBC4A /* Boy.m */,
 			);
 			path = PYLProtect;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			files = (
 				44EDF51E2227E43800EDBC4A /* Person.m in Sources */,
 				4457A6942227CA0200132DEF /* main.m in Sources */,
+				44EDF5212227F3D600EDBC4A /* Boy.m in Sources */,
 				44EDF51D2227E43800EDBC4A /* NSObject+PYLProtect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

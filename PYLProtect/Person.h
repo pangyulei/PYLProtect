@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface Person : NSObject
-
+- (void)m1;
+- (void)m2;
 @end
